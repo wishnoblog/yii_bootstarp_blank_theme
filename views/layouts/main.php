@@ -29,7 +29,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">Project name</a>
+					<a class="navbar-brand" href="#"><?php echo Yii::app()->name; ?></a>
 				</div>
 				<div class="collapse navbar-collapse">
 					<?php $this->widget('zii.widgets.CMenu',array(
